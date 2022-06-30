@@ -1,0 +1,44 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    outline-width: 0px;
+}
+
+nav {
+    background-color: #f7f7f7;
+}
+
+nav ul {
+    /*display: table; - removido*/
+    display: flex;
+    /*flex aqui - novo*/
+    justify-content: space-around;
+    /*e distribuição de espaço aqui - novo*/
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    /*display: table-cell; - removido
+    width: 25%; - removido*/
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+nav ul li:hover {
+    background-color: white;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    color: white;
+}
